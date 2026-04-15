@@ -7,7 +7,7 @@ A simple Next.js app to search top-rated restaurants by city using the Yelp Fusi
 ### 1. Get a Yelp API Key
 
 1. Go to [https://www.yelp.com/developers/v3/manage_app](https://www.yelp.com/developers/v3/manage_app)
-2. Create an app to get your **API Key** (Fusion API)
+2. Create an app to get your **API Key**
 
 ### 2. Configure your key
 
@@ -32,7 +32,7 @@ Open [http://localhost:3000](http://localhost:3000)
 
 ## Approach
 
-I structured the app around a single Next.js API route that proxies requests to the Yelp Fusion API, keeping the client simple and the API key secure. The frontend is a single client component using plain useState and fetch — no unnecessary libraries or abstractions. I mapped Yelp's response to a lean data shape server-side, stripping out everything the UI doesn't need before it ever hits the browser. The result is two focused files with a clear separation: one handles data fetching, one handles display.
+I structured the app around a single Next.js API route that proxies requests to the Yelp API, keeping the client simple and the API key secure. The frontend is a single client component using plain useState and fetch — no unnecessary libraries or abstractions. I mapped Yelp's response to a lean data shape server-side, stripping out everything the UI doesn't need before it ever hits the browser. The result is two focused files with a clear separation: one handles data fetching, one handles display.
 
 ## Accuray & Edge Cases
 
