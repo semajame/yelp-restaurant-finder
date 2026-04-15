@@ -1,6 +1,6 @@
 # Yelp Restaurant Finder
 
-A simple Next.js app to search top-rated restaurants by city using the Yelp Fusion API.
+A simple Next.js app to search top-rated restaurants by city using the Yelp API.
 
 ## Setup
 
